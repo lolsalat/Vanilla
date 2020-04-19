@@ -1,108 +1,138 @@
-[14:01:43] [main/ERROR]: Unable to bootstrap registry 'minecraft:chunk_generator_type'
-[14:01:43] [main/ERROR]: Registry 'minecraft:chunk_generator_type' was empty after loading
-[14:01:43] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
-[14:01:44] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[14:01:44] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[14:01:44] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[14:01:44] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[14:01:44] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[14:01:44] [Server thread/INFO]: Starting minecraft server version 20w16a
-[14:01:44] [Server thread/INFO]: Loading properties
-[14:01:44] [Server thread/INFO]: Default game type: SURVIVAL
-[14:01:44] [Server thread/INFO]: Generating keypair
-[14:01:44] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:01:44] [Server thread/INFO]: Using default channel type
-[14:01:44] [Server thread/INFO]: Preparing level "world"
-[14:01:44] [Server thread/INFO]: Reloading ResourceManager: Default
-[14:01:45] [Server thread/INFO]: Loaded 6 recipes
-[14:01:45] [Server thread/INFO]: Loaded 908 advancements
-[14:01:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:01:47] [Server thread/INFO]: Preparing spawn area: 0%
-[14:01:47] [Server thread/INFO]: Preparing spawn area: 0%
-[14:01:56] [User Authenticator #1/INFO]: UUID of player ExarnCun is 3b2330ad-6920-4b64-92b8-c4a75f80096f
-[14:01:58] [Worker-1/INFO]: Preparing spawn area: 0%
-[14:01:58] [Worker-1/INFO]: Preparing spawn area: 0%
-[14:01:58] [Worker-2/INFO]: Preparing spawn area: 0%
-[14:01:58] [Worker-2/INFO]: Preparing spawn area: 0%
-[14:01:58] [Worker-2/INFO]: Preparing spawn area: 0%
-[14:01:58] [Worker-2/INFO]: Preparing spawn area: 0%
-[14:01:58] [Worker-2/INFO]: Preparing spawn area: 0%
-[14:01:58] [Worker-2/INFO]: Preparing spawn area: 0%
-[14:01:58] [Worker-2/INFO]: Preparing spawn area: 0%
-[14:01:58] [Worker-2/INFO]: Preparing spawn area: 0%
-[14:01:58] [Worker-2/INFO]: Preparing spawn area: 0%
-[14:01:58] [Worker-2/INFO]: Preparing spawn area: 0%
-[14:01:58] [Worker-2/INFO]: Preparing spawn area: 0%
-[14:01:58] [Worker-2/INFO]: Preparing spawn area: 0%
-[14:01:58] [Worker-2/INFO]: Preparing spawn area: 0%
-[14:01:58] [Worker-2/INFO]: Preparing spawn area: 0%
-[14:01:58] [Worker-3/INFO]: Preparing spawn area: 0%
-[14:01:58] [Worker-2/INFO]: Preparing spawn area: 0%
-[14:01:58] [Worker-2/INFO]: Preparing spawn area: 0%
-[14:01:58] [Worker-2/INFO]: Preparing spawn area: 0%
-[14:01:58] [Worker-2/INFO]: Preparing spawn area: 0%
-[14:01:58] [Worker-2/INFO]: Preparing spawn area: 0%
-[14:02:00] [User Authenticator #2/INFO]: UUID of player Bubble_1 is 8848fe8f-30e2-4bc1-bf88-5984223c81f9
-[14:02:00] [Worker-1/INFO]: Preparing spawn area: 83%
-[14:02:00] [Worker-2/INFO]: Preparing spawn area: 83%
-[14:02:00] [Worker-2/INFO]: Preparing spawn area: 83%
-[14:02:01] [Worker-3/INFO]: Preparing spawn area: 83%
-[14:02:01] [Worker-2/INFO]: Preparing spawn area: 83%
-[14:02:01] [Worker-2/INFO]: Preparing spawn area: 83%
-[14:02:02] [Worker-2/INFO]: Preparing spawn area: 83%
-[14:02:02] [Worker-2/INFO]: Preparing spawn area: 86%
-[14:02:03] [Worker-2/INFO]: Preparing spawn area: 89%
-[14:02:03] [Server thread/INFO]: Time elapsed: 16369 ms
-[14:02:03] [Server thread/INFO]: Done (18.593s)! For help, type "help"
-[14:02:03] [Server thread/INFO]: ExarnCun[/127.0.0.1:50853] logged in with entity id 100 at (-93.5, 74.0, 201.5)
-[14:02:03] [Server thread/INFO]: ExarnCun joined the game
-[14:02:03] [Server thread/INFO]: Bubble_1[/127.0.0.1:50857] logged in with entity id 101 at (-97.5, 73.0, 195.5)
-[14:02:03] [Server thread/INFO]: Bubble_1 joined the game
-[14:02:11] [Server thread/INFO]: [ExarnCun: Made Bubble_1 a server operator]
-[14:05:44] [Server thread/INFO]: ExarnCun has made the advancement [Stone Age]
-[14:05:51] [Server thread/INFO]: ExarnCun has made the advancement [Getting an Upgrade]
-[14:05:54] [Server thread/INFO]: Bubble_1 has made the advancement [Getting an Upgrade]
-[14:06:50] [Server thread/INFO]: [ExarnCun: The difficulty has been set to Normal]
-[14:06:53] [Server thread/INFO]: Bubble_1 has made the advancement [Stone Age]
-[14:13:25] [Server thread/INFO]: ExarnCun has made the advancement [Acquire Hardware]
-[14:13:52] [Server thread/INFO]: ExarnCun has made the advancement [Isn't It Iron Pick]
-[14:13:59] [Server thread/INFO]: Bubble_1 has made the advancement [Isn't It Iron Pick]
-[14:14:23] [Server thread/INFO]: Bubble_1 has made the advancement [Diamonds!]
-[14:19:40] [Server thread/INFO]: ExarnCun has made the advancement [Diamonds!]
-[14:20:15] [Server thread/INFO]: Bubble_1 has made the advancement [Acquire Hardware]
-[14:20:51] [Server thread/INFO]: [Bubble_1] I suck
-[14:23:23] [Server thread/INFO]: ExarnCun has made the advancement [Ice Bucket Challenge]
-[14:32:53] [Server thread/INFO]: ExarnCun has made the advancement [Sweet Dreams]
-[14:32:53] [Server thread/INFO]: Bubble_1 has made the advancement [Sweet Dreams]
-[14:40:27] [Server thread/INFO]: ExarnCun has made the advancement [Monster Hunter]
-[14:41:44] [Server thread/WARN]: Boat (vehicle of ExarnCun) moved wrongly! 0.5448442040041641
-[14:41:44] [Server thread/WARN]: Boat (vehicle of ExarnCun) moved wrongly! 0.6736023091389995
-[14:41:44] [Server thread/WARN]: Boat (vehicle of ExarnCun) moved wrongly! 0.2872945165470071
-[14:49:15] [Server thread/INFO]: Bubble_1 lost connection: Disconnected
-[14:49:15] [Server thread/INFO]: Bubble_1 left the game
-[14:57:39] [User Authenticator #3/INFO]: UUID of player Bubble_1 is 8848fe8f-30e2-4bc1-bf88-5984223c81f9
-[14:57:39] [Server thread/INFO]: Bubble_1[/127.0.0.1:50906] logged in with entity id 13217 at (1869.9144708558104, 79.0, -127.70418462973194)
-[14:57:39] [Server thread/INFO]: Bubble_1 joined the game
-[14:59:24] [Server thread/INFO]: [ExarnCun: Teleported Bubble_1 to ExarnCun]
-[15:18:37] [Server thread/WARN]: Boat (vehicle of ExarnCun) moved wrongly! 0.30325826239982234
-[15:18:37] [Server thread/WARN]: Boat (vehicle of ExarnCun) moved wrongly! 0.5023139578186147
-[15:27:22] [Server thread/INFO]: ExarnCun lost connection: Disconnected
-[15:27:22] [Server thread/INFO]: ExarnCun left the game
-[15:27:27] [User Authenticator #4/INFO]: UUID of player ExarnCun is 3b2330ad-6920-4b64-92b8-c4a75f80096f
-[15:27:27] [Server thread/INFO]: ExarnCun[/127.0.0.1:51083] logged in with entity id 23224 at (3044.164039508972, 70.0, -1776.2384247193447)
-[15:27:27] [Server thread/INFO]: ExarnCun joined the game
-[15:30:16] [Server thread/INFO]: <ExarnCun> 3872 -2720
-[15:37:24] [Server thread/INFO]: Bubble_1 has made the advancement [Suit Up]
-[15:55:51] [Server thread/INFO]: [ExarnCun: Stopping the server]
-[15:55:51] [Server thread/INFO]: Stopping server
-[15:55:51] [Server thread/INFO]: Saving players
-[15:55:51] [Server thread/INFO]: Saving worlds
-[15:55:51] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
-[15:55:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:55:51] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[15:55:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[15:55:53] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
-[15:55:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:55:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:55:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[15:55:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:01:09] [Server thread/INFO]: ExarnCun has made the advancement [Enchanter]
+[00:03:26] [Server thread/INFO]: ExarnCun has made the advancement [Isn't It Iron Pick]
+[00:04:48] [Server thread/WARN]: Fetching packet for removed entity azt['Iron Ore'/157145, l='welt', x=-9725.21, y=48.89, z=-13.02]
+[00:05:06] [Server thread/INFO]: ExarnCun lost connection: Disconnected
+[00:05:06] [Server thread/INFO]: ExarnCun left the game
+[00:05:06] [Server thread/INFO]: LuluWM99 lost connection: Disconnected
+[00:05:06] [Server thread/INFO]: LuluWM99 left the game
+[00:05:09] [User Authenticator #43/INFO]: UUID of player ExarnCun is 3b2330ad-6920-4b64-92b8-c4a75f80096f
+[00:05:09] [Server thread/INFO]: ExarnCun[/127.0.0.1:52283] logged in with entity id 157203 at (-9732.934946017482, 47.0, -12.048510487077534)
+[00:05:09] [Server thread/INFO]: ExarnCun joined the game
+[00:05:11] [User Authenticator #44/INFO]: UUID of player LuluWM99 is 3c0f2dac-9ac7-4025-bc96-50db6d8b4388
+[00:05:11] [Server thread/INFO]: LuluWM99[/127.0.0.1:52285] logged in with entity id 157229 at (-9706.004180528113, 47.0, -9.669428028272607)
+[00:05:11] [Server thread/INFO]: LuluWM99 joined the game
+[00:15:49] [Server thread/INFO]: ExarnCun lost connection: Disconnected
+[00:15:49] [Server thread/INFO]: ExarnCun left the game
+[00:15:50] [Server thread/INFO]: LuluWM99 lost connection: Disconnected
+[00:15:50] [Server thread/INFO]: LuluWM99 left the game
+[00:16:01] [User Authenticator #45/INFO]: UUID of player ExarnCun is 3b2330ad-6920-4b64-92b8-c4a75f80096f
+[00:16:01] [Server thread/INFO]: ExarnCun[/127.0.0.1:52313] logged in with entity id 159915 at (-9733.320185579045, 47.0, -1.9762141052699844)
+[00:16:01] [Server thread/INFO]: ExarnCun joined the game
+[00:16:02] [User Authenticator #46/INFO]: UUID of player LuluWM99 is 3c0f2dac-9ac7-4025-bc96-50db6d8b4388
+[00:16:02] [Server thread/INFO]: LuluWM99[/127.0.0.1:52314] logged in with entity id 159950 at (-9724.326644519575, 47.0, -3.763656132129246)
+[00:16:02] [Server thread/INFO]: LuluWM99 joined the game
+[00:19:04] [Server thread/WARN]: LuluWM99 moved too quickly! 10.002427702918794,-1.024424088213685,-1.3724467035988646
+[00:20:10] [Server thread/INFO]: Bubble_1 has made the advancement [Voluntary Exile]
+[00:26:31] [Server thread/INFO]: LuluWM99 lost connection: Disconnected
+[00:26:31] [Server thread/INFO]: LuluWM99 left the game
+[00:26:32] [Server thread/INFO]: ExarnCun lost connection: Disconnected
+[00:26:32] [Server thread/INFO]: ExarnCun left the game
+[00:26:35] [User Authenticator #47/INFO]: UUID of player ExarnCun is 3b2330ad-6920-4b64-92b8-c4a75f80096f
+[00:26:35] [Server thread/INFO]: ExarnCun[/127.0.0.1:52335] logged in with entity id 162451 at (-9731.478075143608, 47.0, 12.567171748142792)
+[00:26:35] [Server thread/INFO]: ExarnCun joined the game
+[00:26:35] [User Authenticator #48/INFO]: UUID of player LuluWM99 is 3c0f2dac-9ac7-4025-bc96-50db6d8b4388
+[00:26:35] [Server thread/INFO]: LuluWM99[/127.0.0.1:52337] logged in with entity id 162468 at (-9736.489086520603, 47.0, -2.178020329022106)
+[00:26:35] [Server thread/INFO]: LuluWM99 joined the game
+[00:37:14] [Server thread/INFO]: LuluWM99 lost connection: Disconnected
+[00:37:14] [Server thread/INFO]: LuluWM99 left the game
+[00:37:16] [Server thread/INFO]: ExarnCun lost connection: Disconnected
+[00:37:16] [Server thread/INFO]: ExarnCun left the game
+[00:37:23] [User Authenticator #49/INFO]: UUID of player ExarnCun is 3b2330ad-6920-4b64-92b8-c4a75f80096f
+[00:37:23] [Server thread/INFO]: ExarnCun[/127.0.0.1:52360] logged in with entity id 164837 at (-9729.435918380712, 47.0, 3.3493952599674928)
+[00:37:23] [Server thread/INFO]: ExarnCun joined the game
+[00:37:30] [User Authenticator #50/INFO]: UUID of player LuluWM99 is 3c0f2dac-9ac7-4025-bc96-50db6d8b4388
+[00:37:30] [Server thread/INFO]: LuluWM99[/127.0.0.1:52362] logged in with entity id 164877 at (-9735.205783251131, 47.0, 7.02726866912496)
+[00:37:30] [Server thread/INFO]: LuluWM99 joined the game
+[00:41:40] [Server thread/INFO]: ExarnCun lost connection: Disconnected
+[00:41:40] [Server thread/INFO]: ExarnCun left the game
+[00:41:45] [Server thread/INFO]: LuluWM99 lost connection: Disconnected
+[00:41:45] [Server thread/INFO]: LuluWM99 left the game
+[00:48:08] [User Authenticator #51/INFO]: UUID of player ExarnCun is 3b2330ad-6920-4b64-92b8-c4a75f80096f
+[00:48:08] [User Authenticator #52/INFO]: UUID of player LuluWM99 is 3c0f2dac-9ac7-4025-bc96-50db6d8b4388
+[00:48:08] [Server thread/INFO]: ExarnCun[/127.0.0.1:52388] logged in with entity id 166888 at (-9705.44569412615, 47.0, -13.444155924370754)
+[00:48:08] [Server thread/INFO]: ExarnCun joined the game
+[00:48:08] [Server thread/INFO]: LuluWM99[/127.0.0.1:52387] logged in with entity id 166901 at (-9715.918175117591, 47.0, -14.735572777810122)
+[00:48:08] [Server thread/INFO]: LuluWM99 joined the game
+[00:48:30] [Server thread/INFO]: Bubble_1 lost connection: Timed out
+[00:48:30] [Server thread/INFO]: Bubble_1 left the game
+[00:50:05] [Server thread/INFO]: ExarnCun lost connection: Disconnected
+[00:50:05] [Server thread/INFO]: ExarnCun left the game
+[00:50:20] [User Authenticator #53/INFO]: UUID of player ExarnCun is 3b2330ad-6920-4b64-92b8-c4a75f80096f
+[00:50:20] [Server thread/INFO]: ExarnCun[/127.0.0.1:52402] logged in with entity id 167234 at (-9705.581353173753, 46.0, -7.086180143578513)
+[00:50:20] [Server thread/INFO]: ExarnCun joined the game
+[01:01:16] [Server thread/INFO]: [ExarnCun: Kicked LuluWM99: Kicked by an operator]
+[01:01:16] [Server thread/INFO]: LuluWM99 lost connection: Kicked by an operator
+[01:01:16] [Server thread/INFO]: LuluWM99 left the game
+[01:07:37] [User Authenticator #54/INFO]: UUID of player LuluWM99 is 3c0f2dac-9ac7-4025-bc96-50db6d8b4388
+[01:07:37] [Server thread/INFO]: LuluWM99[/127.0.0.1:52430] logged in with entity id 169961 at (-9688.515421547285, 59.0, -12.241624578244789)
+[01:07:37] [Server thread/INFO]: LuluWM99 joined the game
+[01:08:43] [Server thread/INFO]: LuluWM99 has made the advancement [A Seedy Place]
+[01:12:24] [Server thread/INFO]: ExarnCun lost connection: Disconnected
+[01:12:24] [Server thread/INFO]: ExarnCun left the game
+[01:12:35] [User Authenticator #55/INFO]: UUID of player ExarnCun is 3b2330ad-6920-4b64-92b8-c4a75f80096f
+[01:12:35] [Server thread/INFO]: ExarnCun[/127.0.0.1:52447] logged in with entity id 170652 at (-9720.46255261733, 46.0, -5.735843617650799)
+[01:12:35] [Server thread/INFO]: ExarnCun joined the game
+[01:23:07] [Server thread/INFO]: ExarnCun lost connection: Disconnected
+[01:23:07] [Server thread/INFO]: ExarnCun left the game
+[01:23:11] [User Authenticator #56/INFO]: UUID of player ExarnCun is 3b2330ad-6920-4b64-92b8-c4a75f80096f
+[01:23:11] [Server thread/INFO]: ExarnCun[/127.0.0.1:52463] logged in with entity id 172118 at (-9733.347409680195, 47.0, 4.158228126823333)
+[01:23:11] [Server thread/INFO]: ExarnCun joined the game
+[01:34:25] [Server thread/INFO]: ExarnCun lost connection: Disconnected
+[01:34:25] [Server thread/INFO]: ExarnCun left the game
+[01:34:28] [User Authenticator #57/INFO]: UUID of player ExarnCun is 3b2330ad-6920-4b64-92b8-c4a75f80096f
+[01:34:28] [Server thread/INFO]: ExarnCun[/127.0.0.1:52493] logged in with entity id 173503 at (-9705.420140182361, 47.0, 20.83327059045012)
+[01:34:28] [Server thread/INFO]: ExarnCun joined the game
+[01:34:28] [Server thread/INFO]: ExarnCun lost connection: Disconnected
+[01:34:28] [Server thread/INFO]: ExarnCun left the game
+[01:34:32] [User Authenticator #58/INFO]: UUID of player ExarnCun is 3b2330ad-6920-4b64-92b8-c4a75f80096f
+[01:34:33] [Server thread/INFO]: ExarnCun[/127.0.0.1:52495] logged in with entity id 173535 at (-9705.420140182361, 47.0, 20.83327059045012)
+[01:34:33] [Server thread/INFO]: ExarnCun joined the game
+[01:45:37] [Server thread/INFO]: ExarnCun lost connection: Disconnected
+[01:45:37] [Server thread/INFO]: ExarnCun left the game
+[01:45:48] [User Authenticator #59/INFO]: UUID of player ExarnCun is 3b2330ad-6920-4b64-92b8-c4a75f80096f
+[01:45:48] [Server thread/INFO]: ExarnCun[/127.0.0.1:52514] logged in with entity id 175578 at (-9760.537777508885, 47.0, 0.7068768058225897)
+[01:45:48] [Server thread/INFO]: ExarnCun joined the game
+[01:57:19] [Server thread/WARN]: Fetching packet for removed entity azt['Cobblestone'/178191, l='welt', x=-9752.13, y=47.07, z=-1.28]
+[02:08:26] [Server thread/INFO]: LuluWM99 lost connection: Disconnected
+[02:08:26] [Server thread/INFO]: LuluWM99 left the game
+[02:08:30] [User Authenticator #60/INFO]: UUID of player LuluWM99 is 3c0f2dac-9ac7-4025-bc96-50db6d8b4388
+[02:08:30] [Server thread/INFO]: LuluWM99[/127.0.0.1:52567] logged in with entity id 180308 at (-9706.899481544007, 47.0, -14.082472208433902)
+[02:08:30] [Server thread/INFO]: LuluWM99 joined the game
+[02:21:41] [Server thread/INFO]: LuluWM99 lost connection: Disconnected
+[02:21:41] [Server thread/INFO]: LuluWM99 left the game
+[02:21:47] [User Authenticator #61/INFO]: UUID of player LuluWM99 is 3c0f2dac-9ac7-4025-bc96-50db6d8b4388
+[02:21:47] [Server thread/INFO]: LuluWM99[/127.0.0.1:52592] logged in with entity id 182620 at (-9760.06123528379, 47.0, 2.7603642437136164)
+[02:21:47] [Server thread/INFO]: LuluWM99 joined the game
+[02:47:13] [Server thread/INFO]: ExarnCun has made the advancement [Cover Me With Diamonds]
+[02:53:32] [Server thread/INFO]: ExarnCun lost connection: Disconnected
+[02:53:32] [Server thread/INFO]: ExarnCun left the game
+[02:53:32] [Server thread/INFO]: LuluWM99 lost connection: Disconnected
+[02:53:32] [Server thread/INFO]: LuluWM99 left the game
+[02:53:42] [User Authenticator #62/INFO]: UUID of player ExarnCun is 3b2330ad-6920-4b64-92b8-c4a75f80096f
+[02:53:42] [Server thread/INFO]: ExarnCun[/127.0.0.1:52665] logged in with entity id 188394 at (-9739.346607709487, 47.0, 8.672892522229901)
+[02:53:42] [Server thread/INFO]: ExarnCun joined the game
+[02:53:48] [User Authenticator #63/INFO]: UUID of player LuluWM99 is 3c0f2dac-9ac7-4025-bc96-50db6d8b4388
+[02:53:49] [Server thread/INFO]: LuluWM99[/127.0.0.1:52667] logged in with entity id 188673 at (-9655.394253993754, 60.0, -26.211260011495284)
+[02:53:49] [Server thread/INFO]: LuluWM99 joined the game
+[02:54:30] [Server thread/INFO]: ExarnCun lost connection: Disconnected
+[02:54:30] [Server thread/INFO]: ExarnCun left the game
+[02:54:40] [User Authenticator #64/INFO]: UUID of player ExarnCun is 3b2330ad-6920-4b64-92b8-c4a75f80096f
+[02:54:40] [Server thread/INFO]: ExarnCun[/127.0.0.1:52673] logged in with entity id 188866 at (-9747.526436618291, 46.9375, 8.432248773167295)
+[02:54:40] [Server thread/INFO]: ExarnCun joined the game
+[03:00:01] [Server thread/INFO]: ExarnCun lost connection: Disconnected
+[03:00:01] [Server thread/INFO]: ExarnCun left the game
+[03:00:45] [Server thread/INFO]: LuluWM99 lost connection: Disconnected
+[03:00:45] [Server thread/INFO]: LuluWM99 left the game
+[03:45:47] [Server thread/INFO]: Stopping the server
+[03:45:47] [Server thread/INFO]: Stopping server
+[03:45:47] [Server thread/INFO]: Saving players
+[03:45:47] [Server thread/INFO]: Saving worlds
+[03:45:47] [Server thread/INFO]: Saving chunks for level 'welt'/minecraft:the_end
+[03:45:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:45:47] [Server thread/INFO]: Saving chunks for level 'welt'/minecraft:the_nether
+[03:45:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:45:47] [Server thread/INFO]: Saving chunks for level 'welt'/minecraft:overworld
+[03:45:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (welt): All chunks are saved
+[03:45:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:45:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:45:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (welt): All chunks are saved
