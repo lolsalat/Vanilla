@@ -1,29 +1,13 @@
-[00:00:14] [Server thread/WARN]: LuluWM99 moved too quickly! -10.162958206603435,0.0,0.3926433428355125
-[00:13:12] [Server thread/WARN]: LuluWM99 moved too quickly! 0.6072078055040038,-2.1242529844036966,17.82134041345919
-[00:19:56] [Server thread/INFO]: LuluWM99 was blown up by Creeper
-[00:20:20] [Server thread/INFO]: Villager bcp[''/681, l='ServerLevel[welt]', x=-9530.70, y=67.00, z=-223.05] died, message: 'Villager was slain by Zombie'
-[00:20:29] [Server thread/INFO]: Villager bcp[''/611, l='ServerLevel[welt]', x=-9530.62, y=67.00, z=-225.38] died, message: 'Villager was slain by Zombie'
-[00:23:59] [Server thread/WARN]: Fetching packet for removed entity bag[''/30126, l='ServerLevel[welt]', x=-9675.27, y=64.00, z=-97.26]
-[00:25:54] [Server thread/WARN]: LuluWM99 moved too quickly! 10.410829295962685,-3.0284831249614967,14.691367694583619
-[00:27:57] [Server thread/WARN]: LuluWM99 moved too quickly! -13.633814443324809,-5.585441769302065,10.130809571124018
-[00:30:28] [Server thread/WARN]: Fetching packet for removed entity bag[''/31850, l='ServerLevel[welt]', x=-9677.65, y=64.00, z=-88.83]
-[00:31:06] [Server thread/WARN]: Fetching packet for removed entity bag[''/32030, l='ServerLevel[welt]', x=-9676.30, y=64.00, z=-89.19]
-[00:49:29] [Server thread/WARN]: LuluWM99 moved too quickly! -11.956356604354369,1.849161872990834,12.852597355539018
-[00:51:30] [Server thread/WARN]: Fetching packet for removed entity bag[''/36119, l='ServerLevel[welt]', x=-9677.01, y=64.00, z=-98.03]
-[00:59:05] [Server thread/WARN]: LuluWM99 moved too quickly! -5.189794025425726,2.0,8.472481041212319
-[01:04:46] [Server thread/INFO]: LuluWM99 lost connection: Disconnected
-[01:04:46] [Server thread/INFO]: LuluWM99 left the game
-[02:18:27] [Server thread/INFO]: [Server] ich mach jetzt aus oki? Ansonsten schreib in Telegram :=
-[02:31:17] [Server thread/INFO]: Stopping the server
-[02:31:17] [Server thread/INFO]: Stopping server
-[02:31:17] [Server thread/INFO]: Saving players
-[02:31:17] [Server thread/INFO]: Saving worlds
-[02:31:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[welt]'/minecraft:the_end
-[02:31:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02:31:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[welt]'/minecraft:the_nether
-[02:31:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02:31:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[welt]'/minecraft:overworld
-[02:31:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (welt): All chunks are saved
-[02:31:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02:31:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02:31:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (welt): All chunks are saved
+[05:30:51] [Server thread/INFO]: Stopping the server
+[05:30:51] [Server thread/INFO]: Stopping server
+[05:30:51] [Server thread/INFO]: Saving players
+[05:30:51] [Server thread/INFO]: Saving worlds
+[05:30:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[welt]'/minecraft:the_end
+[05:30:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:30:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[welt]'/minecraft:overworld
+[05:30:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (welt): All chunks are saved
+[05:30:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[welt]'/minecraft:the_nether
+[05:30:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:30:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:30:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (welt): All chunks are saved
+[05:30:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved

@@ -1,5 +1,11 @@
 [
   {
+    "uuid": "e5a49a07-96c6-463e-afda-62f5f44e307b",
+    "name": "JoJoModding",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "8848fe8f-30e2-4bc1-bf88-5984223c81f9",
     "name": "Bubble_1",
     "level": 4,
