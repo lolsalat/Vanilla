@@ -1,13 +1,46 @@
-[05:30:51] [Server thread/INFO]: Stopping the server
-[05:30:51] [Server thread/INFO]: Stopping server
-[05:30:51] [Server thread/INFO]: Saving players
-[05:30:51] [Server thread/INFO]: Saving worlds
-[05:30:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[welt]'/minecraft:the_end
-[05:30:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[05:30:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[welt]'/minecraft:overworld
-[05:30:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (welt): All chunks are saved
-[05:30:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[welt]'/minecraft:the_nether
-[05:30:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[05:30:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[05:30:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (welt): All chunks are saved
-[05:30:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:11:33] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[22:11:33] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22:11:33] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22:11:33] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22:11:33] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22:11:33] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22:11:33] [Server thread/INFO]: Starting minecraft server version 20w20b
+[22:11:33] [Server thread/INFO]: Loading properties
+[22:11:33] [Server thread/INFO]: Default game type: SURVIVAL
+[22:11:33] [Server thread/INFO]: Generating keypair
+[22:11:33] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:11:33] [Server thread/INFO]: Using default channel type
+[22:11:34] [Server thread/INFO]: Preparing level "welt"
+[22:11:34] [Server thread/INFO]: Reloading ResourceManager: Default
+[22:11:34] [Server thread/INFO]: Loaded 6 recipes
+[22:11:35] [Server thread/INFO]: Loaded 918 advancements
+[22:11:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:11:36] [Server thread/INFO]: Preparing spawn area: 0%
+[22:11:36] [Server thread/INFO]: Preparing spawn area: 0%
+[22:11:36] [Server thread/INFO]: Preparing spawn area: 0%
+[22:11:36] [Server thread/INFO]: Time elapsed: 1328 ms
+[22:11:36] [Server thread/INFO]: Done (2.317s)! For help, type "help"
+[22:11:49] [User Authenticator #1/INFO]: UUID of player LuluWM99 is 3c0f2dac-9ac7-4025-bc96-50db6d8b4388
+[22:11:49] [Server thread/INFO]: LuluWM99[/127.0.0.1:60245] logged in with entity id 484 at (-9687.10545692927, 59.0, -14.010237023897195)
+[22:11:49] [Server thread/INFO]: LuluWM99 joined the game
+[23:00:33] [Server thread/WARN]: Fetching packet for removed entity bam[''/9769, l='ServerLevel[welt]', x=-9680.37, y=64.00, z=-89.63]
+[23:09:02] [Server thread/WARN]: Fetching packet for removed entity bam[''/11639, l='ServerLevel[welt]', x=-9680.75, y=64.00, z=-96.70]
+[23:10:49] [Server thread/WARN]: Fetching packet for removed entity bam[''/12091, l='ServerLevel[welt]', x=-9680.79, y=64.00, z=-89.66]
+[23:13:16] [Server thread/WARN]: Fetching packet for removed entity bam[''/12526, l='ServerLevel[welt]', x=-9675.43, y=64.00, z=-92.84]
+[23:15:40] [Server thread/WARN]: Fetching packet for removed entity bam[''/12877, l='ServerLevel[welt]', x=-9680.93, y=64.00, z=-90.51]
+[23:16:23] [Server thread/WARN]: Fetching packet for removed entity bam[''/13007, l='ServerLevel[welt]', x=-9675.35, y=64.00, z=-97.28]
+[23:23:20] [Server thread/INFO]: LuluWM99 lost connection: Disconnected
+[23:23:20] [Server thread/INFO]: LuluWM99 left the game
+[23:23:33] [Server thread/INFO]: Stopping the server
+[23:23:33] [Server thread/INFO]: Stopping server
+[23:23:33] [Server thread/INFO]: Saving players
+[23:23:33] [Server thread/INFO]: Saving worlds
+[23:23:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[welt]'/minecraft:overworld
+[23:23:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (welt): All chunks are saved
+[23:23:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[welt]'/minecraft:the_end
+[23:23:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:23:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[welt]'/minecraft:the_nether
+[23:23:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:23:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (welt): All chunks are saved
+[23:23:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:23:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved

@@ -263,6 +263,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2020-05-15 13:17:54 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2020-04-18 22:13:38 +0200"
@@ -715,8 +721,8 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "minecraft:pillager": "2020-04-19 00:20:05 +0200",
       "minecraft:blaze": "2020-04-22 00:15:27 +0200",
+      "minecraft:pillager": "2020-04-19 00:20:05 +0200",
       "minecraft:skeleton": "2020-04-19 01:46:15 +0200",
       "minecraft:ghast": "2020-04-19 23:14:11 +0200",
       "minecraft:hoglin": "2020-04-19 23:16:48 +0200",
@@ -1466,14 +1472,15 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:jungle_edge": "2020-04-20 01:59:27 +0200",
       "minecraft:cold_ocean": "2020-04-22 15:51:34 +0200",
-      "minecraft:mountains": "2020-04-30 23:44:41 +0200",
-      "minecraft:mushroom_fields": "2020-04-24 00:30:53 +0200",
+      "minecraft:jungle_edge": "2020-04-20 01:59:27 +0200",
       "minecraft:forest": "2020-04-18 17:57:52 +0200",
+      "minecraft:mushroom_fields": "2020-04-24 00:30:53 +0200",
+      "minecraft:mountains": "2020-04-30 23:44:41 +0200",
       "minecraft:taiga": "2020-04-30 23:46:58 +0200",
       "minecraft:desert_hills": "2020-04-22 12:01:57 +0200",
       "minecraft:deep_cold_ocean": "2020-04-22 15:51:20 +0200",
+      "minecraft:taiga_hills": "2020-05-18 23:07:01 +0200",
       "minecraft:desert": "2020-04-20 02:04:00 +0200",
       "minecraft:deep_frozen_ocean": "2020-04-22 15:54:43 +0200",
       "minecraft:jungle": "2020-04-20 01:59:44 +0200",
@@ -1485,11 +1492,11 @@
       "minecraft:savanna_plateau": "2020-04-18 17:58:07 +0200",
       "minecraft:beach": "2020-04-18 18:44:41 +0200",
       "minecraft:dark_forest": "2020-04-22 12:05:31 +0200",
-      "minecraft:river": "2020-04-18 18:16:36 +0200",
       "minecraft:lukewarm_ocean": "2020-04-18 18:53:31 +0200",
+      "minecraft:river": "2020-04-18 18:16:36 +0200",
       "minecraft:birch_forest_hills": "2020-05-05 18:23:06 +0200",
-      "minecraft:wooded_mountains": "2020-04-30 23:45:47 +0200",
       "minecraft:bamboo_jungle_hills": "2020-04-24 00:09:28 +0200",
+      "minecraft:wooded_mountains": "2020-04-30 23:45:47 +0200",
       "minecraft:wooded_hills": "2020-04-19 00:17:05 +0200",
       "minecraft:mushroom_field_shore": "2020-04-24 00:30:38 +0200",
       "minecraft:swamp": "2020-05-05 18:24:39 +0200",
@@ -2116,6 +2123,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2020-05-18 16:52:45 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/nether_bricks": {
     "criteria": {
       "has_netherbrick": "2020-04-19 23:21:05 +0200"
@@ -2413,7 +2426,8 @@
       "minecraft:cow": "2020-04-20 01:02:57 +0200",
       "minecraft:chicken": "2020-04-20 01:04:18 +0200",
       "minecraft:wolf": "2020-04-30 23:56:03 +0200",
-      "minecraft:panda": "2020-05-02 21:32:59 +0200"
+      "minecraft:panda": "2020-05-02 21:32:59 +0200",
+      "minecraft:bee": "2020-05-20 23:22:52 +0200"
     },
     "done": false
   },
@@ -2468,6 +2482,12 @@
   "minecraft:recipes/decorations/orange_glazed_terracotta": {
     "criteria": {
       "has_orange_terracotta": "2020-04-18 23:19:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2020-05-18 16:52:45 +0200"
     },
     "done": true
   },
@@ -2789,6 +2809,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/lapis_lazuli": {
+    "criteria": {
+      "has_lapis_block": "2020-05-15 13:26:48 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/magenta_stained_glass": {
     "criteria": {
       "has_glass": "2020-04-18 20:41:50 +0200"
@@ -2816,6 +2842,12 @@
   "minecraft:recipes/decorations/green_carpet_from_white_carpet": {
     "criteria": {
       "has_white_carpet": "2020-04-20 03:43:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2020-05-18 23:47:24 +0200"
     },
     "done": true
   },
@@ -3383,6 +3415,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2020-05-18 23:47:24 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/red_bed": {
     "criteria": {
       "has_red_wool": "2020-04-20 16:33:51 +0200"
@@ -3700,5 +3738,5 @@
     },
     "done": true
   },
-  "DataVersion": 2532
+  "DataVersion": 2537
 }

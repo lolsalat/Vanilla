@@ -1,0 +1,155 @@
+[10:38:59] [main/ERROR]: Registry 'minecraft:chunk_generator_type' was empty after loading
+[10:38:59] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[10:39:00] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[10:39:00] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10:39:00] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10:39:00] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[10:39:00] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10:39:00] [Server thread/INFO]: Starting minecraft server version 20w18a
+[10:39:00] [Server thread/INFO]: Loading properties
+[10:39:00] [Server thread/INFO]: Default game type: SURVIVAL
+[10:39:00] [Server thread/INFO]: Generating keypair
+[10:39:00] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:39:00] [Server thread/INFO]: Using default channel type
+[10:39:00] [Server thread/INFO]: Preparing level "welt"
+[10:39:01] [Server thread/INFO]: Reloading ResourceManager: Default
+[10:39:01] [Server thread/INFO]: Loaded 6 recipes
+[10:39:01] [Server thread/INFO]: Loaded 908 advancements
+[10:39:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:39:03] [Server thread/INFO]: Preparing spawn area: 0%
+[10:39:03] [Server thread/INFO]: Preparing spawn area: 0%
+[10:39:03] [Server thread/INFO]: Preparing spawn area: 0%
+[10:39:07] [Worker-5/INFO]: Preparing spawn area: 0%
+[10:39:07] [Worker-3/INFO]: Preparing spawn area: 0%
+[10:39:07] [Worker-1/INFO]: Preparing spawn area: 0%
+[10:39:07] [Worker-5/INFO]: Preparing spawn area: 0%
+[10:39:07] [Worker-3/INFO]: Preparing spawn area: 0%
+[10:39:07] [Worker-1/INFO]: Preparing spawn area: 0%
+[10:39:07] [Worker-5/INFO]: Preparing spawn area: 0%
+[10:39:07] [Server thread/INFO]: Preparing spawn area: 0%
+[10:39:07] [Server thread/INFO]: Time elapsed: 5178 ms
+[10:39:07] [Server thread/INFO]: Done (6.722s)! For help, type "help"
+[10:40:30] [User Authenticator #1/INFO]: UUID of player LuluWM99 is 3c0f2dac-9ac7-4025-bc96-50db6d8b4388
+[10:40:30] [Server thread/INFO]: LuluWM99[/127.0.0.1:65503] logged in with entity id 459 at (-9769.878563019356, 47.0, 6.00881259705207)
+[10:40:30] [Server thread/INFO]: LuluWM99 joined the game
+[10:45:51] [Server thread/WARN]: Fetching packet for removed entity bag[''/1445, l='ServerLevel[welt]', x=-9676.47, y=64.00, z=-89.37]
+[10:54:32] [Server thread/WARN]: Fetching packet for removed entity bag[''/2648, l='ServerLevel[welt]', x=-9676.17, y=64.00, z=-95.93]
+[11:34:26] [Server thread/INFO]: LuluWM99 lost connection: Disconnected
+[11:34:26] [Server thread/INFO]: LuluWM99 left the game
+[11:38:00] [User Authenticator #2/INFO]: UUID of player LuluWM99 is 3c0f2dac-9ac7-4025-bc96-50db6d8b4388
+[11:38:00] [Server thread/INFO]: LuluWM99[/127.0.0.1:52564] logged in with entity id 6840 at (-9717.554649330936, 47.0, -12.106670190371325)
+[11:38:00] [Server thread/INFO]: LuluWM99 joined the game
+[11:39:58] [Server thread/WARN]: Fetching packet for removed entity bag[''/7160, l='ServerLevel[welt]', x=-9676.42, y=64.00, z=-89.82]
+[11:43:11] [Server thread/WARN]: Fetching packet for removed entity bag[''/7742, l='ServerLevel[welt]', x=-9676.63, y=64.00, z=-89.59]
+[11:43:23] [Server thread/WARN]: Fetching packet for removed entity bag[''/7777, l='ServerLevel[welt]', x=-9680.53, y=64.00, z=-95.10]
+[11:43:32] [Server thread/WARN]: Fetching packet for removed entity bag[''/7798, l='ServerLevel[welt]', x=-9681.31, y=64.00, z=-88.83]
+[11:50:24] [Server thread/WARN]: Fetching packet for removed entity bag[''/8715, l='ServerLevel[welt]', x=-9675.32, y=64.00, z=-95.08]
+[11:58:13] [Server thread/WARN]: Fetching packet for removed entity bag[''/9876, l='ServerLevel[welt]', x=-9677.26, y=64.00, z=-95.67]
+[12:03:02] [User Authenticator #3/INFO]: UUID of player Bubble_1 is 8848fe8f-30e2-4bc1-bf88-5984223c81f9
+[12:03:02] [Server thread/INFO]: Bubble_1[/127.0.0.1:54014] logged in with entity id 10920 at (-9783.651655638581, 71.0, -301.1623998479067)
+[12:03:02] [Server thread/INFO]: Bubble_1 joined the game
+[12:08:17] [Server thread/WARN]: Fetching packet for removed entity bag[''/12508, l='ServerLevel[welt]', x=-9674.85, y=64.00, z=-94.91]
+[12:09:05] [Server thread/WARN]: Fetching packet for removed entity bag[''/12726, l='ServerLevel[welt]', x=-9681.54, y=64.00, z=-95.93]
+[12:13:30] [Server thread/INFO]: Bubble_1 lost connection: Disconnected
+[12:13:30] [Server thread/INFO]: Bubble_1 left the game
+[12:13:35] [Server thread/INFO]: LuluWM99 lost connection: Disconnected
+[12:13:35] [Server thread/INFO]: LuluWM99 left the game
+[12:14:37] [User Authenticator #4/INFO]: UUID of player JoJoModding is e5a49a07-96c6-463e-afda-62f5f44e307b
+[12:14:37] [Server thread/INFO]: JoJoModding[/127.0.0.1:54704] logged in with entity id 13922 at (-9681.319029390006, 57.0, -21.314918908178797)
+[12:14:37] [Server thread/INFO]: JoJoModding joined the game
+[12:14:50] [Server thread/INFO]: <JoJoModding> keiner da?
+[12:14:52] [Server thread/INFO]: <JoJoModding> :sad
+[12:14:54] [Server thread/INFO]: JoJoModding lost connection: Disconnected
+[12:14:54] [Server thread/INFO]: JoJoModding left the game
+[13:50:43] [User Authenticator #5/INFO]: UUID of player LuluWM99 is 3c0f2dac-9ac7-4025-bc96-50db6d8b4388
+[13:50:43] [Server thread/INFO]: LuluWM99[/127.0.0.1:60350] logged in with entity id 14043 at (-9563.700000025332, 74.0000002, -284.700000025332)
+[13:50:43] [Server thread/INFO]: LuluWM99 joined the game
+[13:51:08] [Server thread/WARN]: Fetching packet for removed entity bag[''/14262, l='ServerLevel[welt]', x=-9560.59, y=74.94, z=-306.49]
+[13:55:38] [User Authenticator #6/INFO]: UUID of player Bubble_1 is 8848fe8f-30e2-4bc1-bf88-5984223c81f9
+[13:55:38] [Server thread/INFO]: Bubble_1[/127.0.0.1:53288] logged in with entity id 14989 at (-9775.638001581205, 128.0, -297.61095406063714)
+[13:55:38] [Server thread/INFO]: Bubble_1 joined the game
+[14:03:07] [Server thread/INFO]: <Bubble_1> ich checke net wieso aus dem Bienenstock kein Honig mehr kommt
+[14:03:13] [Server thread/INFO]: <Bubble_1> ich brauche honig :(
+[14:03:18] [Server thread/INFO]: <LuluWM99> weil keine bienen mehr da sind
+[14:03:39] [Server thread/INFO]: <Bubble_1> wie kommen da wieder bienen?
+[14:05:26] [Server thread/WARN]: Fetching packet for removed entity bag[''/17737, l='ServerLevel[welt]', x=-9682.17, y=64.00, z=-94.22]
+[14:07:22] [Server thread/WARN]: Fetching packet for removed entity bag[''/18135, l='ServerLevel[welt]', x=-9682.11, y=64.00, z=-93.23]
+[14:07:22] [Server thread/WARN]: Fetching packet for removed entity bag[''/18135, l='ServerLevel[welt]', x=-9682.11, y=64.00, z=-93.23]
+[14:09:34] [Server thread/INFO]: <Bubble_1> ich nehm mir mal ein Pferd und gehe Honig suchen
+[14:13:18] [Server thread/WARN]: Horse (vehicle of Bubble_1) moved wrongly! 0.25273886382125965
+[14:13:18] [Server thread/WARN]: Horse (vehicle of Bubble_1) moved wrongly! 0.4781313890742026
+[14:14:26] [Server thread/WARN]: Fetching packet for removed entity bag[''/20755, l='ServerLevel[welt]', x=-9676.26, y=64.00, z=-97.74]
+[14:19:24] [Server thread/WARN]: Mismatch in destroy block pos: fr{x=-10343, y=73, z=-869} fr{x=-10344, y=72, z=-867}
+[14:19:27] [Server thread/WARN]: Mismatch in destroy block pos: fr{x=-10345, y=75, z=-875} fr{x=-10344, y=76, z=-873}
+[14:19:27] [Server thread/WARN]: Mismatch in destroy block pos: fr{x=-10345, y=75, z=-875} fr{x=-10344, y=76, z=-873}
+[14:19:27] [Server thread/WARN]: Mismatch in destroy block pos: fr{x=-10345, y=75, z=-875} fr{x=-10344, y=76, z=-873}
+[14:19:35] [Server thread/WARN]: Mismatch in destroy block pos: fr{x=-10336, y=75, z=-876} fr{x=-10337, y=74, z=-875}
+[14:19:54] [Server thread/WARN]: Mismatch in destroy block pos: fr{x=-10324, y=74, z=-883} fr{x=-10321, y=73, z=-883}
+[14:19:54] [Server thread/WARN]: Mismatch in destroy block pos: fr{x=-10324, y=74, z=-883} fr{x=-10321, y=73, z=-883}
+[14:19:54] [Server thread/WARN]: Mismatch in destroy block pos: fr{x=-10324, y=74, z=-883} fr{x=-10321, y=73, z=-883}
+[14:19:54] [Server thread/WARN]: Mismatch in destroy block pos: fr{x=-10324, y=74, z=-883} fr{x=-10321, y=73, z=-883}
+[14:19:54] [Server thread/WARN]: Mismatch in destroy block pos: fr{x=-10324, y=74, z=-883} fr{x=-10321, y=73, z=-883}
+[14:19:54] [Server thread/WARN]: Mismatch in destroy block pos: fr{x=-10324, y=74, z=-883} fr{x=-10321, y=73, z=-883}
+[14:19:54] [Server thread/WARN]: Mismatch in destroy block pos: fr{x=-10324, y=74, z=-883} fr{x=-10321, y=73, z=-883}
+[14:19:54] [Server thread/WARN]: Mismatch in destroy block pos: fr{x=-10324, y=74, z=-883} fr{x=-10321, y=73, z=-883}
+[14:19:55] [Server thread/WARN]: Mismatch in destroy block pos: fr{x=-10324, y=74, z=-883} fr{x=-10321, y=73, z=-883}
+[14:20:08] [Server thread/INFO]: <Bubble_1> sorry ich muss kur bissl cheaten
+[14:20:19] [Server thread/INFO]: [Bubble_1: Set the weather to rain]
+[14:21:42] [Server thread/INFO]: [Bubble_1: Set the time to 1000]
+[14:22:08] [Server thread/WARN]: Mismatch in destroy block pos: fr{x=-10336, y=82, z=-884} fr{x=-10334, y=80, z=-884}
+[14:22:08] [Server thread/WARN]: Mismatch in destroy block pos: fr{x=-10336, y=82, z=-884} fr{x=-10334, y=80, z=-884}
+[14:22:08] [Server thread/WARN]: Mismatch in destroy block pos: fr{x=-10336, y=82, z=-884} fr{x=-10334, y=80, z=-884}
+[14:22:08] [Server thread/WARN]: Mismatch in destroy block pos: fr{x=-10336, y=82, z=-884} fr{x=-10334, y=80, z=-884}
+[14:22:08] [Server thread/WARN]: Mismatch in destroy block pos: fr{x=-10336, y=82, z=-884} fr{x=-10334, y=80, z=-884}
+[14:22:08] [Server thread/WARN]: Mismatch in destroy block pos: fr{x=-10336, y=82, z=-884} fr{x=-10334, y=80, z=-884}
+[14:22:08] [Server thread/WARN]: Mismatch in destroy block pos: fr{x=-10336, y=82, z=-884} fr{x=-10334, y=80, z=-884}
+[14:22:08] [Server thread/WARN]: Mismatch in destroy block pos: fr{x=-10336, y=82, z=-884} fr{x=-10334, y=80, z=-884}
+[14:22:08] [Server thread/WARN]: Mismatch in destroy block pos: fr{x=-10336, y=82, z=-884} fr{x=-10334, y=80, z=-884}
+[14:22:38] [Server thread/INFO]: [Bubble_1: Set the weather to clear]
+[14:24:13] [Server thread/WARN]: Bubble_1 was kicked for floating too long!
+[14:24:13] [Server thread/INFO]: Bubble_1 lost connection: Flying is not enabled on this server
+[14:24:13] [Server thread/INFO]: Bubble_1 left the game
+[14:24:17] [User Authenticator #7/INFO]: UUID of player Bubble_1 is 8848fe8f-30e2-4bc1-bf88-5984223c81f9
+[14:24:17] [Server thread/INFO]: Bubble_1[/127.0.0.1:54967] logged in with entity id 24432 at (-10288.318380140196, 68.8500000178814, -1080.7454754504215)
+[14:24:17] [Server thread/INFO]: Bubble_1 joined the game
+[14:25:02] [Server thread/WARN]: Fetching packet for removed entity bag[''/24867, l='ServerLevel[welt]', x=-9674.99, y=64.00, z=-96.33]
+[14:27:46] [Server thread/INFO]: [Bubble_1: Set the weather to clear]
+[14:30:05] [Server thread/INFO]: [Bubble_1: Gave 2 [Lead] to Bubble_1]
+[14:31:06] [Server thread/INFO]: LuluWM99 lost connection: Disconnected
+[14:31:06] [Server thread/INFO]: LuluWM99 left the game
+[14:31:10] [Server thread/INFO]: [Bubble_1: Set the time to 1000]
+[14:33:36] [Server thread/INFO]: [Bubble_1: Set the weather to clear]
+[14:39:33] [Server thread/INFO]: [Bubble_1: Set the weather to clear]
+[14:41:01] [Server thread/INFO]: [Bubble_1: Set the weather to clear]
+[14:41:04] [Server thread/INFO]: <Bubble_1> 7TIME SET DA
+[14:41:08] [Server thread/INFO]: [Bubble_1: Set the time to 1000]
+[14:42:00] [Server thread/INFO]: [Bubble_1: Gave 1 [Bee Spawn Egg] to Bubble_1]
+[14:42:14] [Server thread/INFO]: [Bubble_1: Gave 1 [Bee Nest] to Bubble_1]
+[14:44:34] [Server thread/INFO]: [Bubble_1: Gave 1 [Beehive] to Bubble_1]
+[14:47:21] [Server thread/INFO]: Bubble_1 lost connection: Disconnected
+[14:47:21] [Server thread/INFO]: Bubble_1 left the game
+[15:07:35] [User Authenticator #8/INFO]: UUID of player LuluWM99 is 3c0f2dac-9ac7-4025-bc96-50db6d8b4388
+[15:07:35] [Server thread/INFO]: LuluWM99[/127.0.0.1:57542] logged in with entity id 30387 at (-9653.191738217034, 58.5, -25.705075725359954)
+[15:07:35] [Server thread/INFO]: LuluWM99 joined the game
+[15:11:28] [Server thread/INFO]: LuluWM99 lost connection: Disconnected
+[15:11:28] [Server thread/INFO]: LuluWM99 left the game
+[16:19:06] [Server thread/INFO]: [Server] Ich update den Server gleich, ist also 2 min off :)
+[16:19:37] [Server thread/INFO]: Stopping the server
+[16:19:37] [Server thread/INFO]: Stopping server
+[16:19:37] [Server thread/ERROR]: Exception stopping the server
+java.lang.NoClassDefFoundError: io/netty/channel/AbstractChannelHandlerContext$13
+	at io.netty.channel.AbstractChannelHandlerContext.close(AbstractChannelHandlerContext.java:610) ~[server.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.close(AbstractChannelHandlerContext.java:465) ~[server.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.close(DefaultChannelPipeline.java:1003) ~[server.jar:?]
+	at io.netty.channel.AbstractChannel.close(AbstractChannel.java:238) ~[server.jar:?]
+	at zk.b(SourceFile:152) ~[server.jar:?]
+	at net.minecraft.server.MinecraftServer.s(SourceFile:614) ~[server.jar:?]
+	at xt.s(SourceFile:570) ~[server.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:735) [server.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+Caused by: java.lang.ClassNotFoundException: io.netty.channel.AbstractChannelHandlerContext$13
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[?:1.8.0_181]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_181]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349) ~[?:1.8.0_181]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_181]
+	... 9 more
