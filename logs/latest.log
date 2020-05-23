@@ -1,46 +1,343 @@
-[22:11:33] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
-[22:11:33] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[22:11:33] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[22:11:33] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[22:11:33] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[22:11:33] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[22:11:33] [Server thread/INFO]: Starting minecraft server version 20w20b
-[22:11:33] [Server thread/INFO]: Loading properties
-[22:11:33] [Server thread/INFO]: Default game type: SURVIVAL
-[22:11:33] [Server thread/INFO]: Generating keypair
-[22:11:33] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:11:33] [Server thread/INFO]: Using default channel type
-[22:11:34] [Server thread/INFO]: Preparing level "welt"
-[22:11:34] [Server thread/INFO]: Reloading ResourceManager: Default
-[22:11:34] [Server thread/INFO]: Loaded 6 recipes
-[22:11:35] [Server thread/INFO]: Loaded 918 advancements
-[22:11:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:11:36] [Server thread/INFO]: Preparing spawn area: 0%
-[22:11:36] [Server thread/INFO]: Preparing spawn area: 0%
-[22:11:36] [Server thread/INFO]: Preparing spawn area: 0%
-[22:11:36] [Server thread/INFO]: Time elapsed: 1328 ms
-[22:11:36] [Server thread/INFO]: Done (2.317s)! For help, type "help"
-[22:11:49] [User Authenticator #1/INFO]: UUID of player LuluWM99 is 3c0f2dac-9ac7-4025-bc96-50db6d8b4388
-[22:11:49] [Server thread/INFO]: LuluWM99[/127.0.0.1:60245] logged in with entity id 484 at (-9687.10545692927, 59.0, -14.010237023897195)
-[22:11:49] [Server thread/INFO]: LuluWM99 joined the game
-[23:00:33] [Server thread/WARN]: Fetching packet for removed entity bam[''/9769, l='ServerLevel[welt]', x=-9680.37, y=64.00, z=-89.63]
-[23:09:02] [Server thread/WARN]: Fetching packet for removed entity bam[''/11639, l='ServerLevel[welt]', x=-9680.75, y=64.00, z=-96.70]
-[23:10:49] [Server thread/WARN]: Fetching packet for removed entity bam[''/12091, l='ServerLevel[welt]', x=-9680.79, y=64.00, z=-89.66]
-[23:13:16] [Server thread/WARN]: Fetching packet for removed entity bam[''/12526, l='ServerLevel[welt]', x=-9675.43, y=64.00, z=-92.84]
-[23:15:40] [Server thread/WARN]: Fetching packet for removed entity bam[''/12877, l='ServerLevel[welt]', x=-9680.93, y=64.00, z=-90.51]
-[23:16:23] [Server thread/WARN]: Fetching packet for removed entity bam[''/13007, l='ServerLevel[welt]', x=-9675.35, y=64.00, z=-97.28]
-[23:23:20] [Server thread/INFO]: LuluWM99 lost connection: Disconnected
-[23:23:20] [Server thread/INFO]: LuluWM99 left the game
-[23:23:33] [Server thread/INFO]: Stopping the server
-[23:23:33] [Server thread/INFO]: Stopping server
-[23:23:33] [Server thread/INFO]: Saving players
-[23:23:33] [Server thread/INFO]: Saving worlds
-[23:23:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[welt]'/minecraft:overworld
-[23:23:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (welt): All chunks are saved
-[23:23:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[welt]'/minecraft:the_end
-[23:23:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:23:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[welt]'/minecraft:the_nether
-[23:23:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:23:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (welt): All chunks are saved
-[23:23:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:23:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:35:48] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[20:35:48] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20:35:48] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:35:48] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:35:48] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20:35:48] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:35:48] [Server thread/INFO]: Starting minecraft server version 20w21a
+[20:35:48] [Server thread/INFO]: Loading properties
+[20:35:48] [Server thread/INFO]: Default game type: SURVIVAL
+[20:35:48] [Server thread/INFO]: Generating keypair
+[20:35:48] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:35:48] [Server thread/INFO]: Using default channel type
+[20:35:49] [Server thread/INFO]: Preparing level "welt"
+[20:35:49] [Server thread/INFO]: Reloading ResourceManager: Default
+[20:35:50] [Server thread/INFO]: Loaded 6 recipes
+[20:35:50] [Server thread/INFO]: Loaded 918 advancements
+[20:35:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:35:52] [Server thread/INFO]: Preparing spawn area: 0%
+[20:35:52] [Server thread/INFO]: Preparing spawn area: 0%
+[20:35:52] [Server thread/INFO]: Preparing spawn area: 0%
+[20:35:52] [Server thread/INFO]: Preparing spawn area: 0%
+[20:35:52] [Server thread/ERROR]: No key replace_with_blackstone in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.8f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key vines in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.8f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key overgrown in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.8f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key air_pocket in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.8f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key mossiness in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.8f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key cold in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.8f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]
+[20:35:52] [Server thread/ERROR]: Exception loading structure piece with id minecraft:rupo
+java.lang.RuntimeException: No key replace_with_blackstone in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.8f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key vines in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.8f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key overgrown in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.8f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key air_pocket in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.8f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key mossiness in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.8f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key cold in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.8f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]
+	at com.mojang.serialization.DataResult.lambda$getOrThrow$4(DataResult.java:100) ~[server.jar:?]
+	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[server.jar:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[server.jar:?]
+	at css.<init>(SourceFile:114) ~[server.jar:?]
+	at clk.a(SourceFile:137) ~[server.jar:?]
+	at cgv.a(SourceFile:424) ~[server.jar:?]
+	at cgv.a(SourceFile:175) ~[server.jar:?]
+	at yi.l(SourceFile:525) ~[server.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) [?:1.8.0_181]
+	at alz.c(SourceFile:144) [server.jar:?]
+	at yu$a.c(SourceFile:541) [server.jar:?]
+	at alz.w(SourceFile:118) [server.jar:?]
+	at yu$a.w(SourceFile:550) [server.jar:?]
+	at yu.d(SourceFile:280) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.bd(SourceFile:770) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:758) [server.jar:?]
+	at alz.c(SourceFile:127) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:743) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.b(SourceFile:526) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.i_(SourceFile:337) [server.jar:?]
+	at xw.d(SourceFile:189) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:666) [server.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[20:35:53] [Server thread/INFO]: Preparing spawn area: 47%
+[20:35:53] [Server thread/INFO]: Preparing spawn area: 47%
+[20:35:53] [Server thread/INFO]: Time elapsed: 2927 ms
+[20:35:53] [Server thread/INFO]: Done (3.946s)! For help, type "help"
+[20:35:54] [User Authenticator #1/INFO]: UUID of player Bubble_1 is 8848fe8f-30e2-4bc1-bf88-5984223c81f9
+[20:35:54] [Server thread/INFO]: Bubble_1[/127.0.0.1:60225] logged in with entity id 534 at (-9774.96990552934, 172.5, -299.9311411747595)
+[20:35:54] [Server thread/INFO]: Bubble_1 joined the game
+[20:36:04] [Server thread/ERROR]: No key replace_with_blackstone in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key vines in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key overgrown in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key air_pocket in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key mossiness in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key cold in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]
+[20:36:04] [Server thread/ERROR]: Exception loading structure piece with id minecraft:rupo
+java.lang.RuntimeException: No key replace_with_blackstone in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key vines in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key overgrown in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key air_pocket in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key mossiness in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key cold in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]
+	at com.mojang.serialization.DataResult.lambda$getOrThrow$4(DataResult.java:100) ~[server.jar:?]
+	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[server.jar:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[server.jar:?]
+	at css.<init>(SourceFile:114) ~[server.jar:?]
+	at clk.a(SourceFile:137) ~[server.jar:?]
+	at cgv.a(SourceFile:424) ~[server.jar:?]
+	at cgv.a(SourceFile:175) ~[server.jar:?]
+	at yi.l(SourceFile:525) ~[server.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) [?:1.8.0_181]
+	at alz.c(SourceFile:144) [server.jar:?]
+	at yu$a.c(SourceFile:541) [server.jar:?]
+	at alz.w(SourceFile:118) [server.jar:?]
+	at yu$a.w(SourceFile:550) [server.jar:?]
+	at yu.d(SourceFile:280) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.bd(SourceFile:770) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:758) [server.jar:?]
+	at alz.bm(SourceFile:103) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:742) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:695) [server.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[20:36:51] [Server thread/WARN]: Bubble_1 moved too quickly! -13.504644673448638,-8.410749718175268,8.594143644212124
+[20:37:11] [Server thread/ERROR]: No key replace_with_blackstone in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.2f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key vines in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.2f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key overgrown in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.2f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key air_pocket in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.2f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key mossiness in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.2f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key cold in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.2f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]
+[20:37:11] [Server thread/ERROR]: Exception loading structure piece with id minecraft:rupo
+java.lang.RuntimeException: No key replace_with_blackstone in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.2f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key vines in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.2f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key overgrown in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.2f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key air_pocket in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.2f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key mossiness in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.2f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key cold in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.2f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]
+	at com.mojang.serialization.DataResult.lambda$getOrThrow$4(DataResult.java:100) ~[server.jar:?]
+	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[server.jar:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[server.jar:?]
+	at css.<init>(SourceFile:114) ~[server.jar:?]
+	at clk.a(SourceFile:137) ~[server.jar:?]
+	at cgv.a(SourceFile:424) ~[server.jar:?]
+	at cgv.a(SourceFile:175) ~[server.jar:?]
+	at yi.l(SourceFile:525) ~[server.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) [?:1.8.0_181]
+	at alz.c(SourceFile:144) [server.jar:?]
+	at yu$a.c(SourceFile:541) [server.jar:?]
+	at alz.w(SourceFile:118) [server.jar:?]
+	at yu$a.w(SourceFile:550) [server.jar:?]
+	at yu.d(SourceFile:280) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.bd(SourceFile:770) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:758) [server.jar:?]
+	at alz.bm(SourceFile:103) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:742) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:695) [server.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[20:37:11] [Server thread/WARN]: Bubble_1 moved too quickly! 0.2458485428851418,-0.6709083839322858,10.08633443862093
+[20:38:36] [Server thread/WARN]: Fetching packet for removed entity bam[''/1372, l='ServerLevel[welt]', x=-9674.83, y=64.00, z=-97.63]
+[20:42:12] [Server thread/WARN]: Fetching packet for removed entity bam[''/2030, l='ServerLevel[welt]', x=-9677.14, y=64.00, z=-94.60]
+[20:43:48] [Server thread/ERROR]: No key replace_with_blackstone in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key vines in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key overgrown in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key air_pocket in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key mossiness in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key cold in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]
+[20:43:48] [Server thread/ERROR]: Exception loading structure piece with id minecraft:rupo
+java.lang.RuntimeException: No key replace_with_blackstone in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key vines in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key overgrown in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key air_pocket in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key mossiness in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key cold in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]
+	at com.mojang.serialization.DataResult.lambda$getOrThrow$4(DataResult.java:100) ~[server.jar:?]
+	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[server.jar:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[server.jar:?]
+	at css.<init>(SourceFile:114) ~[server.jar:?]
+	at clk.a(SourceFile:137) ~[server.jar:?]
+	at cgv.a(SourceFile:424) ~[server.jar:?]
+	at cgv.a(SourceFile:175) ~[server.jar:?]
+	at yi.l(SourceFile:525) ~[server.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[?:1.8.0_181]
+	at alz.c(SourceFile:144) ~[server.jar:?]
+	at yu$a.c(SourceFile:541) ~[server.jar:?]
+	at alz.w(SourceFile:118) ~[server.jar:?]
+	at yu$a.w(SourceFile:550) ~[server.jar:?]
+	at alz.c(SourceFile:127) ~[server.jar:?]
+	at yu.a(SourceFile:141) ~[server.jar:?]
+	at bpa.a(SourceFile:242) ~[server.jar:?]
+	at bpc.a(SourceFile:113) ~[server.jar:?]
+	at axd.a(SourceFile:215) ~[server.jar:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) [?:1.8.0_181]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175) [?:1.8.0_181]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) [?:1.8.0_181]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175) [?:1.8.0_181]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) [?:1.8.0_181]
+	at gn$1.tryAdvance(SourceFile:217) [server.jar:?]
+	at java.util.Spliterator.forEachRemaining(Spliterator.java:326) [?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481) [?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471) [?:1.8.0_181]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) [?:1.8.0_181]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) [?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:1.8.0_181]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418) [?:1.8.0_181]
+	at axd.a(SourceFile:215) [server.jar:?]
+	at bpl.a(SourceFile:62) [server.jar:?]
+	at bpl.a(SourceFile:42) [server.jar:?]
+	at yx.a(SourceFile:711) [server.jar:?]
+	at any.bf(SourceFile:1885) [server.jar:?]
+	at any.ad(SourceFile:438) [server.jar:?]
+	at aoj.ad(SourceFile:312) [server.jar:?]
+	at any.h(SourceFile:420) [server.jar:?]
+	at aoj.h(SourceFile:2132) [server.jar:?]
+	at bdi.h(SourceFile:275) [server.jar:?]
+	at yx.i(SourceFile:417) [server.jar:?]
+	at zo.b(SourceFile:201) [server.jar:?]
+	at me.a(SourceFile:234) [server.jar:?]
+	at zn.c(SourceFile:171) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.b(SourceFile:905) [server.jar:?]
+	at xw.b(SourceFile:320) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:832) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:691) [server.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[20:43:49] [Server thread/ERROR]: No key replace_with_blackstone in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key vines in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key overgrown in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key air_pocket in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key mossiness in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key cold in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]
+[20:43:49] [Server thread/ERROR]: Exception loading structure piece with id minecraft:rupo
+java.lang.RuntimeException: No key replace_with_blackstone in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key vines in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key overgrown in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key air_pocket in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key mossiness in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key cold in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]
+	at com.mojang.serialization.DataResult.lambda$getOrThrow$4(DataResult.java:100) ~[server.jar:?]
+	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[server.jar:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[server.jar:?]
+	at css.<init>(SourceFile:114) ~[server.jar:?]
+	at clk.a(SourceFile:137) ~[server.jar:?]
+	at cgv.a(SourceFile:424) ~[server.jar:?]
+	at cgv.a(SourceFile:175) ~[server.jar:?]
+	at yi.l(SourceFile:525) ~[server.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[?:1.8.0_181]
+	at alz.c(SourceFile:144) ~[server.jar:?]
+	at yu$a.c(SourceFile:541) ~[server.jar:?]
+	at alz.w(SourceFile:118) ~[server.jar:?]
+	at yu$a.w(SourceFile:550) ~[server.jar:?]
+	at alz.c(SourceFile:127) ~[server.jar:?]
+	at yu.a(SourceFile:141) ~[server.jar:?]
+	at bpa.a(SourceFile:242) ~[server.jar:?]
+	at bpc.a(SourceFile:113) ~[server.jar:?]
+	at axd.a(SourceFile:215) ~[server.jar:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) [?:1.8.0_181]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175) [?:1.8.0_181]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) [?:1.8.0_181]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175) [?:1.8.0_181]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) [?:1.8.0_181]
+	at gn$1.tryAdvance(SourceFile:217) [server.jar:?]
+	at java.util.Spliterator.forEachRemaining(Spliterator.java:326) [?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481) [?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471) [?:1.8.0_181]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) [?:1.8.0_181]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) [?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:1.8.0_181]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418) [?:1.8.0_181]
+	at axd.a(SourceFile:215) [server.jar:?]
+	at bpl.a(SourceFile:62) [server.jar:?]
+	at bpl.a(SourceFile:42) [server.jar:?]
+	at yx.a(SourceFile:711) [server.jar:?]
+	at any.bf(SourceFile:1885) [server.jar:?]
+	at any.ad(SourceFile:438) [server.jar:?]
+	at aoj.ad(SourceFile:312) [server.jar:?]
+	at any.h(SourceFile:420) [server.jar:?]
+	at aoj.h(SourceFile:2132) [server.jar:?]
+	at bdi.h(SourceFile:275) [server.jar:?]
+	at yx.i(SourceFile:417) [server.jar:?]
+	at zo.b(SourceFile:201) [server.jar:?]
+	at me.a(SourceFile:234) [server.jar:?]
+	at zn.c(SourceFile:171) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.b(SourceFile:905) [server.jar:?]
+	at xw.b(SourceFile:320) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:832) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:691) [server.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[20:43:49] [Server thread/ERROR]: No key replace_with_blackstone in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key vines in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key overgrown in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key air_pocket in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key mossiness in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key cold in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]
+[20:43:49] [Server thread/ERROR]: Exception loading structure piece with id minecraft:rupo
+java.lang.RuntimeException: No key replace_with_blackstone in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key vines in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key overgrown in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key air_pocket in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key mossiness in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key cold in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]
+	at com.mojang.serialization.DataResult.lambda$getOrThrow$4(DataResult.java:100) ~[server.jar:?]
+	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[server.jar:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[server.jar:?]
+	at css.<init>(SourceFile:114) ~[server.jar:?]
+	at clk.a(SourceFile:137) ~[server.jar:?]
+	at cgv.a(SourceFile:424) ~[server.jar:?]
+	at cgv.a(SourceFile:175) ~[server.jar:?]
+	at yi.l(SourceFile:525) ~[server.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) [?:1.8.0_181]
+	at alz.c(SourceFile:144) [server.jar:?]
+	at yu$a.c(SourceFile:541) [server.jar:?]
+	at alz.w(SourceFile:118) [server.jar:?]
+	at yu$a.w(SourceFile:550) [server.jar:?]
+	at yu.d(SourceFile:280) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.bd(SourceFile:770) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:758) [server.jar:?]
+	at alz.c(SourceFile:127) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:743) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:695) [server.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[20:43:50] [Server thread/ERROR]: No key replace_with_blackstone in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key vines in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key overgrown in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key air_pocket in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key mossiness in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key cold in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]
+[20:43:50] [Server thread/ERROR]: Exception loading structure piece with id minecraft:rupo
+java.lang.RuntimeException: No key replace_with_blackstone in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key vines in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key overgrown in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key air_pocket in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key mossiness in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key cold in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]
+	at com.mojang.serialization.DataResult.lambda$getOrThrow$4(DataResult.java:100) ~[server.jar:?]
+	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[server.jar:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[server.jar:?]
+	at css.<init>(SourceFile:114) ~[server.jar:?]
+	at clk.a(SourceFile:137) ~[server.jar:?]
+	at cgv.a(SourceFile:424) ~[server.jar:?]
+	at cgv.a(SourceFile:175) ~[server.jar:?]
+	at yi.l(SourceFile:525) ~[server.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) [?:1.8.0_181]
+	at alz.c(SourceFile:144) [server.jar:?]
+	at yu$a.c(SourceFile:541) [server.jar:?]
+	at alz.w(SourceFile:118) [server.jar:?]
+	at yu$a.w(SourceFile:550) [server.jar:?]
+	at yu.d(SourceFile:280) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.bd(SourceFile:770) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:758) [server.jar:?]
+	at alz.c(SourceFile:127) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:743) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:695) [server.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[20:45:07] [Server thread/ERROR]: No key replace_with_blackstone in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key vines in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key overgrown in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key air_pocket in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key mossiness in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key cold in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]
+[20:45:07] [Server thread/ERROR]: Exception loading structure piece with id minecraft:rupo
+java.lang.RuntimeException: No key replace_with_blackstone in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key vines in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key overgrown in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key air_pocket in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key mossiness in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]; No key cold in MapLike[{AirPocket:1b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:1b}]
+	at com.mojang.serialization.DataResult.lambda$getOrThrow$4(DataResult.java:100) ~[server.jar:?]
+	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[server.jar:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[server.jar:?]
+	at css.<init>(SourceFile:114) ~[server.jar:?]
+	at clk.a(SourceFile:137) ~[server.jar:?]
+	at cgv.a(SourceFile:424) ~[server.jar:?]
+	at cgv.a(SourceFile:175) ~[server.jar:?]
+	at yi.l(SourceFile:525) ~[server.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) [?:1.8.0_181]
+	at alz.c(SourceFile:144) [server.jar:?]
+	at yu$a.c(SourceFile:541) [server.jar:?]
+	at alz.w(SourceFile:118) [server.jar:?]
+	at yu$a.w(SourceFile:550) [server.jar:?]
+	at yu.d(SourceFile:280) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.bd(SourceFile:770) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:758) [server.jar:?]
+	at alz.c(SourceFile:127) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:743) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:695) [server.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[20:50:03] [Server thread/INFO]: [Bubble_1: The difficulty has been set to Peaceful]
+[20:50:17] [Server thread/ERROR]: No key replace_with_blackstone in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key vines in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key overgrown in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key air_pocket in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key mossiness in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key cold in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]
+[20:50:17] [Server thread/ERROR]: Exception loading structure piece with id minecraft:rupo
+java.lang.RuntimeException: No key replace_with_blackstone in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key vines in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key overgrown in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key air_pocket in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key mossiness in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key cold in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]
+	at com.mojang.serialization.DataResult.lambda$getOrThrow$4(DataResult.java:100) ~[server.jar:?]
+	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[server.jar:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[server.jar:?]
+	at css.<init>(SourceFile:114) ~[server.jar:?]
+	at clk.a(SourceFile:137) ~[server.jar:?]
+	at cgv.a(SourceFile:424) ~[server.jar:?]
+	at cgv.a(SourceFile:175) ~[server.jar:?]
+	at yi.l(SourceFile:525) ~[server.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) [?:1.8.0_181]
+	at alz.c(SourceFile:144) [server.jar:?]
+	at yu$a.c(SourceFile:541) [server.jar:?]
+	at alz.w(SourceFile:118) [server.jar:?]
+	at yu$a.w(SourceFile:550) [server.jar:?]
+	at yu.d(SourceFile:280) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.bd(SourceFile:770) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:758) [server.jar:?]
+	at alz.c(SourceFile:127) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:743) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:695) [server.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[20:55:12] [Server thread/WARN]: Fetching packet for removed entity bam[''/4171, l='ServerLevel[welt]', x=-9681.51, y=64.00, z=-97.86]
+[20:57:57] [Server thread/ERROR]: No key replace_with_blackstone in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key vines in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key overgrown in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key air_pocket in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key mossiness in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key cold in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]
+[20:57:57] [Server thread/ERROR]: Exception loading structure piece with id minecraft:rupo
+java.lang.RuntimeException: No key replace_with_blackstone in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key vines in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key overgrown in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key air_pocket in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key mossiness in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]; No key cold in MapLike[{AirPocket:0b,Overgrown:0b,Mossiness:0.0f,Cold:0b,Vines:0b,ReplaceWithBlackstone:0b}]
+	at com.mojang.serialization.DataResult.lambda$getOrThrow$4(DataResult.java:100) ~[server.jar:?]
+	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[server.jar:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[server.jar:?]
+	at css.<init>(SourceFile:114) ~[server.jar:?]
+	at clk.a(SourceFile:137) ~[server.jar:?]
+	at cgv.a(SourceFile:424) ~[server.jar:?]
+	at cgv.a(SourceFile:175) ~[server.jar:?]
+	at yi.l(SourceFile:525) ~[server.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) [?:1.8.0_181]
+	at alz.c(SourceFile:144) [server.jar:?]
+	at yu$a.c(SourceFile:541) [server.jar:?]
+	at alz.w(SourceFile:118) [server.jar:?]
+	at yu$a.w(SourceFile:550) [server.jar:?]
+	at yu.d(SourceFile:280) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.bd(SourceFile:770) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:758) [server.jar:?]
+	at alz.c(SourceFile:127) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:743) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:695) [server.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[21:04:42] [Server thread/INFO]: [Bubble_1: The difficulty has been set to Normal]
+[21:32:41] [Server thread/INFO]: Bubble_1 lost connection: Disconnected
+[21:32:41] [Server thread/INFO]: Bubble_1 left the game
+[21:51:53] [Server thread/INFO]: Stopping the server
+[21:51:53] [Server thread/INFO]: Stopping server
+[21:51:53] [Server thread/INFO]: Saving players
+[21:51:53] [Server thread/INFO]: Saving worlds
+[21:51:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[welt]'/minecraft:overworld
+[21:51:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (welt): All chunks are saved
+[21:51:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[welt]'/minecraft:the_nether
+[21:51:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:51:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[welt]'/minecraft:the_end
+[21:51:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:51:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (welt): All chunks are saved
+[21:51:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:51:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

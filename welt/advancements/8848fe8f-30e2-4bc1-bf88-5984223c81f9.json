@@ -47,6 +47,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/magenta_dye_from_lilac": {
+    "criteria": {
+      "has_double_plant": "2020-05-22 20:41:24 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_bricks": {
     "criteria": {
       "has_stone": "2020-04-19 11:48:16 +0200"
@@ -326,6 +332,12 @@
   "minecraft:recipes/decorations/crimson_fence": {
     "criteria": {
       "has_planks": "2020-04-30 18:11:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/beehive": {
+    "criteria": {
+      "has_honeycomb": "2020-05-22 20:38:48 +0200"
     },
     "done": true
   },
@@ -1857,6 +1869,13 @@
       "has_bamboo": "2020-04-18 17:28:45 +0200"
     },
     "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2020-05-22 20:44:12 +0200",
+      "minecraft:soul_sand_valley": "2020-05-22 20:43:49 +0200"
+    },
+    "done": false
   },
   "minecraft:recipes/decorations/sandstone_wall": {
     "criteria": {
@@ -3714,6 +3733,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/honeycomb_block": {
+    "criteria": {
+      "has_honeycomb": "2020-05-22 20:38:48 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2020-04-18 16:04:23 +0200"
@@ -3918,5 +3943,5 @@
     },
     "done": true
   },
-  "DataVersion": 2537
+  "DataVersion": 2554
 }
